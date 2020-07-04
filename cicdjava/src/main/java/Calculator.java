@@ -26,4 +26,13 @@ public class Calculator {
         return rs;
     }
     
+    public static void main(String[] args) {
+        Calculator cal = new Calculator();
+        System.out.println(cal.add(1, 2));
+        System.out.println(cal.sub(5, 1));
+        System.out.println(cal.mul(4, 10));
+        System.out.println(cal.div(6,3));
+        
+    }
+    
 }
